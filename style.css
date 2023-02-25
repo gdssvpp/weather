@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     outline: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -195,6 +196,28 @@ body{
     scale: 0;
     opacity: 0;
 }
+
+.dedicated{
+    color: #06283D;
+    position: absolute;
+    margin: auto 0;
+    bottom: 0;
+}
+
+.developer{
+    color: #2488a1;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    right: 10px;
+}
+
+.developer a:visited {
+    color:rgb(29, 113, 182);
+    text-decoration: none;
+
+}
+
 
 .fadeIn{
     animation: 0.5s fadeIn forwards;
