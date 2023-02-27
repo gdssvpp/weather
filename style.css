@@ -105,6 +105,8 @@ body{
 .weather-box .max{
     position: absolute;
     margin-left: -90px;
+    font-weight: 800;
+    color: #06283D;
     font-size: 1.2rem;
 }
 
